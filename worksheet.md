@@ -3,6 +3,7 @@
 ## Lab 2.0 Worksheet
 
 Name(s) and Login(s):
+Aliza Khawar       AlizaKhawar
 
 
 
@@ -11,14 +12,14 @@ was born on September 9th, 1941.  If he were still alive,
 how old would he be today?  Find out by running the `birthday`
 program on the appropriate inputs and enter your solution here.
 
-
+Dennis Richie would be 82 years, 4 weeks, and 1 days old today.
 
 
 2. Bjarne Stroustrup, the creator of the C++ programming
 language, the object-oriented extension of C, was born on
 December 30th, 1950.  How old is he today?
 
-
+Bjarne Stroustrup would be 72 years, 40 weeks, and 3 days old today
 
 
 3. Software testing often involves testing code with known
@@ -37,19 +38,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size:
-  range:
+  size:2 bytes
+  range:-32768 to 32786
 * `int`
-  size:
-  range:
+  size: 4 bytes
+  range: -2147483647 to 2147483647
 * `long int`
-  size:
-  range:
+  size: 4 bytes
+  range: 0 to 4294987295
 * `float`
-  size:
+  size: 4 bytes
   range: 7 digits of accuracy
 * `double`
-  size:
+  size: 8 bytes
   range: 15 digits of accuracy
 
 
@@ -77,11 +78,11 @@ Why or why not?
 
 a) Run the `area` program with 3 and 4 as inputs.  
 What value do you get?  Is this result correct?
-
+The area is 0.000000 square units.
 
 b) Execute the program again with inputs 3 and 5.
 Does the program give correct results?  Why not?
-
+The area is 0.000000 square units, because the area is being divided by 1/2 and not 0.5, the answer would be correct if it would be divided by 0.5.
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
